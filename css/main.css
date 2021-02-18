@@ -1,6 +1,25 @@
-.test  {
-    background-image: url(../img/mountain-oilify.webp);
-    background-size: cover;
-    height: 2000px;
-    width: 1600px;
+/*Dark Theme*/
+
+.dark-theme  {
+    background-color: #202124;
+}
+
+.text-light  {
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    color: #D6D6D7;
+}
+
+/*Positioning*/
+
+.centered  {
+    display: block;
+    padding: 7.5% 7.5% 5%;
+}
+
+.text-center  {
+    text-align: center;
+}
+
+.heading-larger {
+    font-size: 2em;
 }
