@@ -9,11 +9,9 @@
     color: #D6D6D7;
 }
 
-/*Positioning*/
-
 .centered  {
     display: block;
-    padding: 7.5% 7.5% 5%;
+    padding: 2.5% 7.5% 5%;
 }
 
 .text-center  {
@@ -22,4 +20,93 @@
 
 .heading-larger {
     font-size: 2em;
+}
+
+.margin-spacing  {
+    margin: 5.5% 0%;
+}
+
+/*about*/
+
+.about-component  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-component-frontend  {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    order: 1;  
+}
+
+.about-component-cms  {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    order: 3;
+}
+
+.about-component-ecommerce  {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    order: 2;
+}
+
+.about-img  {
+    height: 300px;
+    border-radius: 10%;
+    align-self: center;
+}
+
+.about-header  {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 80%;
+}
+
+.about-text  {
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+}
+
+/*projects*/
+
+.project-img-small  {
+    height: 200px;
+}
+
+.project-img-large  {
+    height: 350px;
+    /*border: 15px solid #D6D6D7;*/
+}
+
+.projects-component  {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-babue  {
+    display: flex;
+}
+
+.project-cfgi  {
+    display: flex;
+}
+
+.project-header a  {
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #D6D6D7;
+    margin-left: 7.5%;
+}
+
+.project-text  {
+    margin-left: 7.5%;
 }
