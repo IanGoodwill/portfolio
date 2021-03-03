@@ -1,4 +1,4 @@
-/*Dark Theme*/
+/************************************* dark theme *************************************/
 
 .dark-theme  {
     background-color: #202124;
@@ -26,18 +26,27 @@
     margin: 5.5% 0%;
 }
 
-/*about*/
+hr {
+    border: none;
+    border-top: 2px double #D6D6D7;
+    color: #D6D6D7;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+/*************************************about*************************************/
 
 .about-component  {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 .about-component-frontend  {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    flex-grow: 1;
     align-items: center;
     order: 1;  
 }
@@ -46,6 +55,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
+    flex-grow: 1;
     align-items: center;
     order: 3;
 }
@@ -54,6 +64,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
+    flex-grow: 1;
     align-items: center;
     order: 2;
 }
@@ -76,7 +87,7 @@
     width: 80%;
 }
 
-/*projects*/
+/************************************* projects *************************************/
 
 .project-img-small  {
     height: 200px;
@@ -84,7 +95,6 @@
 
 .project-img-large  {
     height: 350px;
-    /*border: 15px solid #D6D6D7;*/
 }
 
 .projects-component  {
@@ -110,3 +120,21 @@
 .project-text  {
     margin-left: 7.5%;
 }
+
+/************************************* media queries *************************************/
+
+@media screen and (max-width: 600px) {
+    .about-component  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .projects-component  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
