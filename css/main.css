@@ -1,6 +1,7 @@
 /************************************* dark theme *************************************/
 
 .dark-theme  {
+    display: flex;
     background-color: #202124;
 }
 
@@ -117,8 +118,16 @@ hr {
     margin-left: 7.5%;
 }
 
+.project-header a:hover  {
+    font-size: 1.5em;
+}
+
 .project-text  {
     margin-left: 7.5%;
+}
+
+.third-line {
+   width: 33.3%;
 }
 
 /************************************* media queries *************************************/
@@ -137,4 +146,30 @@ hr {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .text-light  {
+        font-family: Lato,Helvetica,Arial,sans-serif;
+        color: #D6D6D7;
+        font-size: 1.6rem;
+    }
+
+    .heading-larger {
+        font-size: 2.4rem;
+    }
+
+    .project-img  {
+        height: 350px;
+    }
+
+    .project-babue  {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project-cfgi  {
+        display: flex;
+        flex-direction: column;
+    }
+
+   
   }
