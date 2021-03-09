@@ -1,5 +1,6 @@
 /*Diagonal Thumbnail Slideshow Animation*/
 
+
 function init() {
 	const slider = document.querySelector(".slider");
 	const nextBtn = slider.querySelector(".slider .nav .next");

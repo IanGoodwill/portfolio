@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/IanGoodwill/portfolio/issues"
   },
-  "homepage": "https://github.com/IanGoodwill/portfolio#readme"
+  "homepage": "https://github.com/IanGoodwill/portfolio#readme",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
 }
