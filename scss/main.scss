@@ -225,7 +225,7 @@ a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: white;
+	color: #D6D6D7;
 	position: relative;
 	overflow: hidden;
 	transition: background-color 2s;
@@ -343,14 +343,14 @@ a{
 		width: 8em;
 		text-align: center;
 		padding: 1rem 0;
-		border: solid 2px white;
+		border: solid 2px #D6D6D7;
 		background: transparent;
-		color: white;
+		color: #D6D6D7;
 		transition: background-color 0.3s;
 		cursor: pointer;
 		&:hover{
 			color: $black;
-			background: white;
+			background: #D6D6D7;
 		}
 	}
 }
@@ -358,3 +358,51 @@ a{
 	opacity: 0;
 	pointer-events: none;
 }
+
+
+/************ contact form *****************/
+
+/************ contact form *****************/
+
+.contact-form  {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input  {
+    display: flex;
+    width:35%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2.5px;
+}
+
+.contact-input-message  {
+    display: flex;
+    height: 25vh;
+    width: 35%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2.5px;
+}
+
+
+.text-contact-label {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    color: #D6D6D7;
+    margin-left: 32.5%;
+  }
+
+.contact-submit-button  {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  }
+  
