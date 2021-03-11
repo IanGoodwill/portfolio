@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal porfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanGoodwill/portfolio.git"
+  },
+  "author": "Ian Goodwill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanGoodwill/portfolio/issues"
+  },
+  "homepage": "https://github.com/IanGoodwill/portfolio#readme",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}
