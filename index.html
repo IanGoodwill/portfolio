@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Web Development Porfolio">
     <meta name="keywords" content="development,freelance,projects,about">
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="shortcut icon" type="image/png" href="./img/robot-incognito.png">
@@ -217,19 +218,25 @@
         <div class="contact-form">
             <form action="action_page.php">
           
-              <label class="text-contact-label" for="name">Name</label>
-              <input class="contact-input" type="text" id="name" name="name" placeholder="Your name...">
+            <label class="text-contact-label" for="name">Name</label>
+            <input class="contact-input" type="text" id="name" name="name" placeholder="Your name...">
           
-              <label class="text-contact-label" for="lname">Email</label>
-              <input class="contact-input" type="text" id="email" name="email" placeholder="Your Email...">
+            <label class="text-contact-label" for="lname">Email</label>
+            <input class="contact-input" type="text" id="email" name="email" placeholder="Your Email...">
           
-              <label class="text-contact-label" for="subject">Subject</label>
-              <textarea class="contact-input" id="subject" name="subject" placeholder="Subject..."></textarea>
+            <label class="text-contact-label" for="subject">Subject</label>
+            <textarea class="contact-input" id="subject" name="subject" placeholder="Subject..."></textarea>
 
-              <label class="text-contact-label" for="message">Message</label>
-              <textarea class="contact-input-message" id="message" name="message" placeholder="Write something..."></textarea>
+            <label class="text-contact-label" for="message">Message</label>
+            <textarea class="contact-input-message" id="message" name="message" placeholder="Write something..."></textarea>
           
-              <input class="contact-submit-button" type="submit" value="Submit">
+            <div class="contact-form-submit">
+                <button type="submit">Submit</button>
+                <img src="https://www.dropbox.com/s/qfu4871umzhlcfo/check_arrow_2.svg?dl=1" alt="">
+                <svg width="66px" height="66px">
+                  <circle class="circle_2" stroke-position="outside" stroke-width="3" fill="none" cx="34" cy="33" r="29" stroke="#1ECD97"></circle>
+                </svg>
+              </div>
           
             </form>
           </div>
