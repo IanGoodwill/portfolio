@@ -154,7 +154,25 @@ function init() {
 	prevBtn.onclick = prev;
 }
 
-document.addEventListener("DOMContentLoaded", init);
+
 
 /* Submit Button */
 
+
+
+window.onload=function(){
+
+	if (button)  {
+
+	let btn = document.querySelector("contact-button");
+
+	btn.addEventListener("click", active);
+	}
+
+  }
+
+function active() {
+  btn.classList.toggle("is_active");
+}
+
+document.addEventListener("DOMContentLoaded", init);
