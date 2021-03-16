@@ -1,7 +1,6 @@
 /************************************* dark theme *************************************/
 
 .dark-theme  {
-    display: flex;
     background-color: #202124;
 }
 
@@ -34,6 +33,59 @@ hr {
     overflow: visible;
     text-align: center;
     height: 5px;
+}
+
+/*************************************header*************************************/
+
+.profile-header  {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    justify-content: stretch;
+}
+
+.header-logo  {
+    height:50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.profile-name  {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.profile-link li a {
+    display: flex;
+    align-self: flex-end;
+    padding: 20px 20px;
+    margin-left: 100%;
+    margin-right: 100%;
+    text-decoration: none;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    list-style-type:none;
+}
+
+.profile-link  {
+    display: inline-flex
+}
+
+.profile-link li  {
+    list-style-type:none;
+}
+/*************************************footer*************************************/
+
+.profile-footer  {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.footer-copyright  {
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 0.8rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*************************************about*************************************/
@@ -124,6 +176,7 @@ hr {
 
 .project-text  {
     margin-left: 7.5%;
+    width: 60%;
 }
 
 .third-line {
@@ -370,6 +423,7 @@ a{
 .contact-input  {
     display: flex;
     background: #D6D6D7;
+    font-family: Lato, Helvetica, Arial, sans-serif;
     width:35%;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
@@ -381,6 +435,7 @@ a{
 .contact-input-message  {
     display: flex;
     background: #D6D6D7;
+    font-family: Lato, Helvetica, Arial, sans-serif;
     height: 25vh;
     width: 35%;
     margin-top: 0.5%;
@@ -413,6 +468,7 @@ a{
   width: 100%;
   height: 100%;
 }
+
 .contact-button  {
   font-family: Lato, Helvetica, Arial, sans-serif;
   position: absolute;
@@ -420,6 +476,7 @@ a{
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 5%;
+  margin-bottom: 5%;
   width: 170px;
   height: 40px;
   line-height: 1;

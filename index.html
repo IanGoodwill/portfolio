@@ -10,7 +10,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="https://kit.fontawesome.com/901edefaa6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="shortcut icon" type="image/png" href="./img/robot-incognito.png">
     <title>Document</title>
@@ -18,11 +17,24 @@
 
 <body class="dark-theme">
 
+    <header class="profile-header">
+        <figure>
+            <img class="header-logo" src="./img/robot-incognito.png"/>
+        </figure>
+        <h1 class="text-light profile-name">Ian Goodwill</h1>
+
+        <ul class="text-light profile-link" role="navigation">
+            <li><a class="text-light" href="#about">About</a></li>
+            <li><a class="text-light" href="#projects">Projects</a></li>
+            <li><a class="text-light" href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
     <main class="centered">
 
         <article class="intro margin-spacing">
 
-            <h1 class="text-light heading-larger">Web Developer Portfolio</h1>
+            <h2 class="text-light heading-larger">Web Developer Portfolio</h2>
 
             <p class="text-light">From Web Components and UI/UX animations to React.JS, Redux, Vue.JS, and Node.JS. </p>
 
@@ -217,19 +229,19 @@
         </article>
 
         <div class="contact-form">
-            <form action="action_page.php">
+            <form action="#">
           
             <label class="text-contact-label" for="name">Name</label>
             <input class="contact-input" type="text" id="name" name="name" placeholder="Your name...">
           
             <label class="text-contact-label" for="lname">Email</label>
-            <input class="contact-input" type="text" id="email" name="email" placeholder="Your Email...">
+            <input class="contact-input" type="text" id="email" name="email" placeholder="Your email...">
           
             <label class="text-contact-label" for="subject">Subject</label>
             <textarea class="contact-input" id="subject" name="subject" placeholder="Subject..."></textarea>
 
             <label class="text-contact-label" for="message">Message</label>
-            <textarea class="contact-input-message" id="message" name="message" placeholder="Write something..."></textarea>
+            <textarea class="contact-input-message" id="message" name="message" placeholder="Your message..."></textarea>
           
             <div class="contact-form-submit">
                 <button class="contact-button">
@@ -247,6 +259,12 @@
           </div>
 
     </main>
+
+    <footer class="profile-footer">
+
+        <h3 class="text-light footer-copyright">&copy; Copyright Ian Goodwill 2021</h3>
+
+    </footer>
 
 </body>
 
