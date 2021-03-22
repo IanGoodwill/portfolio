@@ -150,15 +150,13 @@ function init() {
 		updateSlider(newIndex);
 	}
 
-	nextBtn.onclick = next;
+	nextBtn.onload = setInterval(next, 8000);
 	prevBtn.onclick = prev;
+
+	/*  nextBtn.onclick= setTimeout(next, 3000);  */
 }
 
-
-
 /* Submit Button */
-
-
 
 window.onload=function(){
 
@@ -170,7 +168,5 @@ window.onload=function(){
 		btn.classList.toggle("is_active");
 	  }
 }
-
-
 
 document.addEventListener("DOMContentLoaded", init);
