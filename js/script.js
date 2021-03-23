@@ -156,6 +156,10 @@ function init() {
 	/*  nextBtn.onclick= setTimeout(next, 3000);  */
 }
 
+/* Image overly fade */
+
+	
+
 /* Submit Button */
 
 window.onload=function(){

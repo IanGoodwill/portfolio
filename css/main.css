@@ -137,6 +137,69 @@ hr {
   width: 80%;
 }
 
+.about-img-frontend {
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  background: url("../img/frontend.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+}
+
+.about-img-frontend:hover {
+  background: url("../img/frontend-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+}
+
+.about-img-ecommerce {
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  background: url("../img/ecommerce.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+}
+
+.about-img-ecommerce:hover {
+  background: url("../img/ecommerce-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+}
+
+.about-img-cms {
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  background: url("../img/cms.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+}
+
+.about-img-cms:hover {
+  background: url("../img/cms-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+}
+
 /************************************* projects *************************************/
 .project-img-small {
   height: 200px;
@@ -251,14 +314,6 @@ a {
   overflow: hidden;
   transition: background-color 2s;
 }
-.slider .credits {
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
-  line-height: 1.65;
-  z-index: 10;
-  max-width: 320px;
-}
 
 .slider .item .imgs {
   position: relative;
@@ -351,6 +406,7 @@ a {
   width: 100%;
   max-width: 600px;
   line-height: 1;
+  text-shadow: 2px 2px #202124;
 }
 .slider .item .content .wrap .letter {
   display: inline-block;
