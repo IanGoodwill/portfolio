@@ -173,4 +173,23 @@ window.onload=function(){
 	  }
 }
 
+/* Scroll to top button */
+
+$(window).scroll(function() {
+    let height = $(window).scrollTop();
+    if (height > 300) {
+        $('#backToTop').fadeIn();
+    } else {
+        $('#backToTop').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#backToTop").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+
 document.addEventListener("DOMContentLoaded", init);
