@@ -176,16 +176,18 @@ hr {
   background-position: center;
   background-size: contain;
   display: inline-block;
+  transition-duration: 1.5s;
 }
 
 .about-img-frontend:hover {
   background: url("../img/frontend-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 100% 100%;
   border-radius: 10%;
   width: 300px;
   height: 300px;
+  transition-duration: 1.5s;
 }
 
 .about-img-ecommerce {
@@ -197,16 +199,18 @@ hr {
   background-position: center;
   background-size: contain;
   display: inline-block;
+  transition-duration: 1.5s;
 }
 
 .about-img-ecommerce:hover {
   background: url("../img/ecommerce-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 100% 100%;
   border-radius: 10%;
   width: 300px;
   height: 300px;
+  transition-duration: 1.5s;
 }
 
 .about-img-cms {
@@ -218,16 +222,18 @@ hr {
   background-position: center;
   background-size: contain;
   display: inline-block;
+  transition-duration: 1.5s;
 }
 
 .about-img-cms:hover {
   background: url("../img/cms-2.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 100% 100%;
   border-radius: 10%;
   width: 300px;
   height: 300px;
+  transition-duration: 1.5s;
 }
 
 /************************************* projects *************************************/
@@ -242,10 +248,6 @@ hr {
 .projects-component {
   display: flex;
   flex-direction: column;
-}
-
-.project-babue {
-  display: flex;
 }
 
 .project-cfgi {
