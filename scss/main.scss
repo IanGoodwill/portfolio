@@ -312,15 +312,14 @@ hr {
         font-size: 2.4rem;
     }
 
-    .project-img  {
-        height: 350px;
-    }
-
-    .project-babue  {
-        display: flex;
-        flex-direction: column;
+    .project-img-small  {
+        height: 100px;
     }
     
+    .project-img-large  {
+        height: 175px;
+    }
+
     .project-cfgi  {
         display: flex;
         flex-direction: column;
