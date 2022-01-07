@@ -6,11 +6,13 @@
 .text-light {
   font-family: Lato, Helvetica, Arial, sans-serif;
   color: #D6D6D7;
+  margin-left: 5px;
 }
 
 .centered {
-  display: block;
-  padding: 2.5% 7.5% 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .text-center {
@@ -22,7 +24,7 @@
 }
 
 .margin-spacing {
-  margin: 5.5% 0%;
+  margin: 2.5% 0%;
 }
 
 hr {
@@ -120,6 +122,7 @@ hr {
 .about-component {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .about-component-frontend {
@@ -238,11 +241,12 @@ hr {
 
 /************************************* projects *************************************/
 .project-img-small {
-  height: 200px;
+  width: 75%;
+  border-radius: 1%;
 }
 
 .project-img-large {
-  height: 350px;
+  width: 75%;
 }
 
 .projects-component {
@@ -252,22 +256,25 @@ hr {
 
 .project-cfgi {
   display: flex;
+  flex-direction: column;
 }
 
 .project-header a {
   font-size: 1.4em;
   text-decoration: none;
   color: #D6D6D7;
-  margin-left: 7.5%;
+  margin-left: 2.5%;
 }
 
 .project-header a:hover {
   font-size: 1.5em;
+  margin-top: 2.5%;
 }
 
 .project-text {
-  margin-left: 7.5%;
+  margin-left: 2.5%;
   width: 60%;
+  margin-bottom: 2.5%;
 }
 
 .third-line {
@@ -312,6 +319,18 @@ hr {
   .project-cfgi {
     display: flex;
     flex-direction: column;
+  }
+
+  .project-header a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #D6D6D7;
+    margin-left: 2.5%;
+  }
+
+  .project-header a:hover {
+    font-size: 1.2rem;
+    margin-top: 2.5%;
   }
 }
 /*********** Diagonal Slideshow ******************/
@@ -536,90 +555,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   display: table;
-}
-
-/************ contact form submit button *****************/
-.contact-form-submit {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.contact-button {
-  font-family: Lato, Helvetica, Arial, sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 5%;
-  margin-bottom: 5%;
-  width: 170px;
-  height: 40px;
-  line-height: 1;
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border: 2px solid #569cd6;
-  background: #D6D6D7;
-  color: #569cd6;
-  border-radius: 2.5px;
-  cursor: pointer;
-  overflow: hidden;
-  transition: all 0.35s;
-}
-
-.contact-button:hover {
-  background: #569cd6;
-  color: #D6D6D7;
-}
-
-.contact-button span {
-  opacity: 1;
-  visibility: visible;
-  transition: all 0.35s;
-}
-
-.success {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #D6D6D7;
-  border-radius: 5%;
-  z-index: 1;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.35s;
-}
-
-.success svg {
-  width: 20px;
-  height: 20px;
-  fill: yellowgreen;
-  transform-origin: 50% 50%;
-  transform: translateY(-50%) rotate(0deg) scale(0);
-  transition: all 0.35s;
-}
-
-.contact-button.is_active {
-  width: 40px;
-  height: 40px;
-}
-
-.contact-button.is_active .success {
-  opacity: 1;
-  visibility: visible;
-}
-
-.contact-button.is_active .success svg {
-  margin-top: 50%;
-  transform: translateY(-50%) rotate(720deg) scale(1);
-}
-
-.contact-button.is_active span {
-  opacity: 0;
-  visibility: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */
